@@ -13,3 +13,6 @@ export default class ChatsCtrl extends Controller {
   }
 
   remove(chat) {
+    Chats.remove(chat._id);
+  }
+}
